@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100svh;
+  min-height: 100dvh;
+  background-color: #00b7ff;
+  color: #fff;
+  text-align: center;
+}
+
+img {
+  outline: 2px solid #fff;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  width: 3rem;
+}
