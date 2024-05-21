@@ -17,9 +17,9 @@
   background-color: #00b7ff;
   color: #fff;
   text-align: center;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto auto max-content;
+  /* display: grid; */
+  /* grid-template-columns: 1fr; */
+  /* grid-template-rows: fit-content auto auto auto auto auto auto max-content; */
 }
 
 img {
