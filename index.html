@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather UB</title>
+    <!--css link-->
     <link rel="stylesheet" href="style.css">
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/d92219ad72.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="header"><h1>Weather UB</h1></div>
     <div class="card">
         <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city...">
         <h4>Leipzig</h4>
@@ -26,37 +30,80 @@
     </div>
     <!--days-->
     <div class="days">
-        <h5>10-day forecast</h5>
+        <h5>7-day forecast</h5>
         <div class="day">Mon
             <img src="./rain.png" alt="rain" width="40px" />
-                <span class="day-temp"> 8°/ 0°</span>
+                <span> 8°/ 0°</span>
         </div>
         <div class="day">Tue
             <img src="./cloudy.png" alt="cloudy" width="40px" />
-                <span class="day-temp"> 10°/ 2°</span>
+                <span> 10°/ 2°</span>
         </div>
         <div class="day">Wed
             <img src="./storm.png" alt="sunny" width="40px" />
-                <span class="day-temp"> 15°/ 5°</span>
+                <span> 15°/ 5°</span>
         </div>
         <div class="day">Thu
             <img src="./sun.png" alt="storm" width="40px" />
-                <span class="day-temp"> 20°/ 10°</span>
+                <span> 20°/ 10°</span>
         </div>
         <div class="day">Fri
             <img src="./cloudy.png" alt="cloudy" width="40px" />
-                <span class="day-temp"> 22°/ 12°</span>
+                <span > 22°/ 12°</span>
         </div>
         <div class="day">Sat
             <img src="./sun.png" alt="storm" width="40px" />
-            <span class="day-temp"> 20°/ 10°</span>
+            <span> 20°/ 10°</span>
         </div>
         <div class="day">Sun
             <img src="./cloudy.png" alt="cloudy" width="40px" />
-            <span class="day-temp"> 10°/ 2°</span>
+            <span> 10°/ 2°</span>
         </div>
     </div>
- 
+    <h5>Current condition</h5>
+    
+    <div class="current">
+        <div class="cel">Wind
+            <span><i class="fa-solid fa-wind"></i></span>
+            <span>8 km/h</span>
+            <span>Light . From</span>
+            <span>southwest</span>
+            
+        </div>
+        <div class="cel">Humidity 
+            <span><i class="fa-solid fa-temperature-three-quarters"></i></span> 
+            <span>50%</span>
+            <span>Dew point 10°</span>
+        </div>
+        <div class="cel">UV Index
+            <span><i class="fa-solid fa-certificate"></i></span>
+            <span>0</span>
+            <span>Low</span>
+        </div>
+        <div class="cel">Pressure
+            <span><i class="fa-solid fa-tachometer"></i></span>
+            <span>1013 mb</span>
+            <span>Steady</span>
+        </div>
+    </div>
+    <div class="sunrise">
+        <h5>Sunrise & Sunset</h5>
+        <div class="sun">
+            <span><i class="fa-regular fa-sun"></i></span>
+            <span>6:00 AM</span>
+            <span><i class="fa-solid fa-mountain-sun"></i></span>
+            <span>6:00 PM</span>
+        </div>
+    </div>
 
+    <div class="video-weather">
+        <h2 class="video">Today´s Weather News</h2>
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/26jL9vaGKgk?si=TzM2uQSgZ9jsU4i6&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="footer">
+        <h6>Weather UB</h6>
+        <p>© 2024 Weather UB. All rights reserved.</p>
+   
 </body>
 </html>
