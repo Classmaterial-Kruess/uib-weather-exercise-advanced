@@ -5,8 +5,6 @@
 }
 
 
-
-
 body{
     font-family: 'Poppins', sans-serif;
     /*background: url(./weater1.gif), no-repeat;
@@ -91,6 +89,26 @@ body{
     color: #fff;
     cursor: pointer;
 }
+
+/*anima*/
+
+    .anima {
+        animation-name: myAnimation;
+        animation: myAnimation 5s infinite;
+        animation-delay: 2s;
+    }
+
+    @keyframes myAnimation {
+        0% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.2);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
 
 
 .search-box{
