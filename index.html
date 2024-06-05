@@ -11,7 +11,26 @@
     <script src="https://kit.fontawesome.com/d92219ad72.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="header"><h1>Weather UB</h1></div>
+    <!--navbar-->
+    <nav class="navbar">
+        <div class="navbar-brand">Weather UB</div>
+        <div class="navbar-menu" id="navbarMenu">
+            <a href="#home" class="navbar-item">Home</a>
+            <a href="#about" class="navbar-item">About</a>
+            <a href="#services" class="navbar-item">Services</a>
+            <div class="navbar-item dropdown">
+                <a href="#!" class="dropdown-toggle">More</a>
+                <div class="dropdown-menu">
+                    <a href="#contact" class="dropdown-item">Contact</a>
+                    <a href="#Weather News" class="dropdown-item">Weather News</a>
+                </div>
+            </div>
+        </div>
+        <button class="navbar-burger" id="navbarBurger">
+            &#9776;
+        </button>
+    </nav>
+    <div class="header"><h1>google pixel Weather</h1></div>
     <div class="card">
         <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city...">
         <h4>Leipzig</h4>
@@ -63,7 +82,7 @@
     <h5>Current condition</h5>
     
     <div class="current">
-        <div class="cel"><h2>Wind </h2>
+        <div class="cel"><h2> Wind </h2>
             <span><i class="fa-solid fa-wind"></i></span>
             <span>8 km/h</span>
             <span>Light . From</span>
@@ -95,6 +114,7 @@
             <span>6:00 PM</span>
         </div>
     </div>
+    
 
     <div class="video-weather">
         <h2 class="video">Today´s Weather News</h2>
@@ -104,6 +124,6 @@
     <div class="footer">
         <h6>Weather UB</h6>
         <p>© 2024 Weather UB. All rights reserved.</p>
-   
+       
 </body>
 </html>
