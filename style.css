@@ -46,6 +46,8 @@ body{
 
 .navbar-item:hover {
     background-color: #575757;
+    border-radius: .4rem;
+    padding: .8rem;
 }
 
 .dropdown {
