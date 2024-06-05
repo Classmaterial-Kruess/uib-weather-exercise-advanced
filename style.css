@@ -273,7 +273,7 @@ iframe{
   border-radius: 1rem;
   margin-top: 1rem;
 }
-/*media query
+/media query
 @media (max-width: 768px) {
     .navbar-menu {
         display: none;
@@ -287,4 +287,5 @@ iframe{
 
     .navbar-burger {
         display: block;
-    }*/
+    } 
+}
