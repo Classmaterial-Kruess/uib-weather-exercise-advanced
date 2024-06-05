@@ -9,9 +9,13 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background: url(./weater1.gif), no-repeat;
+    /*background: url(./weater1.gif), no-repeat;
+    background-size: cover;*/
+    background: url(./sky.jpg), no-repeat;
     background-size: cover;
-   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
 /* Navbar */
